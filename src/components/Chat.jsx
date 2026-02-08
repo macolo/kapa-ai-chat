@@ -145,6 +145,8 @@ export default function Chat() {
         </form>
         <div className={styles.attribution}>
           Powered by <a href="https://kapa.ai" target="_blank" rel="noopener noreferrer">kapa.ai</a>
+          {' · '}
+          Protected by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">reCAPTCHA</a>
         </div>
       </div>
     </div>
