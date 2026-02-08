@@ -93,7 +93,10 @@ export default function Chat() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <h1 className={styles.title}>AI Assistant</h1>
+        <div className={styles.brand}>
+          <img src="https://www.django-cms.org/static/img/django-logo.svg" alt="django CMS" className={styles.logo} />
+          <h1 className={styles.title}>AI Assistant</h1>
+        </div>
         <button
           className={styles.resetBtn}
           onClick={resetConversation}
@@ -108,8 +111,9 @@ export default function Chat() {
       <div className={styles.messages}>
         {conversation.length === 0 ? (
           <div className={styles.empty}>
-            <p className={styles.emptyTitle}>How can I help you?</p>
-            <p className={styles.emptyHint}>Ask a question to get started.</p>
+            <img src="https://www.django-cms.org/static/img/django-logo.svg" alt="django CMS" className={styles.emptyLogo} />
+            <p className={styles.emptyTitle}>django CMS AI Assistant</p>
+            <p className={styles.emptyHint}>Ask anything about django CMS.</p>
           </div>
         ) : (
           <>
