@@ -2,7 +2,7 @@ import { KapaProvider } from '@kapaai/react-sdk'
 import Chat from './components/Chat'
 import './App.css'
 
-const INTEGRATION_ID = '08e64dae-cea6-4fbc-8207-1c8bd260a14c'
+const INTEGRATION_ID = 'cf1b3ca8-d593-4687-bb94-8f9307f96b51'
 
 function App() {
   return (
